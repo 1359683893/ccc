@@ -1,0 +1,185 @@
+@bs:40rem;
+
+
+.top{
+    height: 90/@bs;
+    line-height: 90/@bs;
+    background:#ff9b25;
+    .top-title{
+        font-size: 24/@bs;
+        color:#fff;
+        padding-left: 24/@bs;
+    }
+}
+.main{
+    padding: 0 24/@bs;
+}
+
+
+
+.mod{
+    margin-top: 28/@bs;
+    .mod-tit{
+        margin-bottom: 28/@bs;
+        display: -webkit-flex;
+        display:-moz-flex;
+        justify-content: space-between;
+        .mod-titl{
+            font-size: 28/@bs;
+            color: #000;
+        }
+        .mod-titr{
+            color:#888;
+            font-size: 28/@bs;
+            i{
+                font-style: normal;
+                
+            }
+        }
+    }
+    /*没有优惠券*/
+    .mod-con{
+        width:592/@bs;
+        height: 224/@bs;
+        border:3/@bs dashed #dedede;
+        background:#fff;
+        .icon-add{
+            font-size: 98/@bs;
+            color:#aeaeae;
+            text-align: center;
+            margin-top: 38/@bs;
+            span{
+                font-size: 28/@bs;
+                display: block;
+                margin-top: 16/@bs;
+            }
+        }
+    }
+    /*添加全场优惠券*/
+    .disc{
+        margin-bottom: 29/@bs;
+        overflow: hidden;
+        border-radius: 10/@bs;
+        box-shadow: 1/@bs 1/@bs 4/@bs 4/@bs #e2dfdc;
+        .disc-body{
+            padding:0 32/@bs;
+            height: 233/@bs;
+            background:#55bc75;
+            color:#fff;
+            overflow: hidden;
+            position: relative;
+            &:before{
+                content: '';
+                display:block;
+                background:url(../images/sale.png) no-repeat;
+                width:146/@bs;
+                height:146/@bs;
+                position: absolute;
+                right: -8/@bs;
+                top: -18/@bs;
+                background-size: 146/@bs;
+            }
+            .disc-title{
+                font-size: 46/@bs;
+                margin:28/@bs 0 12/@bs 0;
+            }
+            .disc-text{
+                color:#bdf3ce;
+                font-size: 22/@bs;
+                margin-bottom: 40/@bs;
+            }
+            .time{
+                display:flex;
+                justify-content: space-between;
+                .icon-time{
+                    line-height: 34/@bs;
+                    font-size: 20/@bs;
+                }
+                .time-right{
+                    width: 94/@bs;
+                    height: 34/@bs;
+                    line-height: 34/@bs;
+                    border-radius: 5/@bs;
+                    font-size: 20/@bs;
+                    color:#bdf3ce;
+                    background:#2a603b;
+                    text-align: center;
+                }
+            }
+        }
+        /*添加优惠券*/
+        .coupon {
+            background: #a974bc;
+            .disc-title{
+                font-size: 36/@bs;
+                color:#fff;
+                margin:20/@bs 0 36/@bs 0;
+                i{font-style: normal;}
+                b{font-size: 60/@bs;}
+                span{
+                    color:#eac7f7;
+                    font-size: 24/@bs;
+                }
+            }
+            .disc-text{
+                color:#fff;
+                margin-bottom: 6/@bs;
+            }
+            .time{
+                .time-right{
+                    background:#6a4279;
+                }
+            }
+            .common{
+                color:#a974bc;
+            }
+        }
+        .disc-con{
+            height: 81/@bs;
+            background:#fff;
+            display:flex;
+            padding:17/@bs 0;
+            position: relative;
+            &:before{
+                content: '';
+                display:block;
+                background:url(../images/icon.png) repeat-x center;
+                width: 100%;
+                height:8/@bs;
+                position: absolute;
+                left: 0;
+                top: -8/@bs;
+                background-size: 24/@bs 8/@bs;
+            }
+            .common{
+                flex:1;
+                text-align: center;
+                line-height: 47/@bs;
+                color:#55bc75;
+                font-size: 26/@bs;
+                border-right: 1/@bs solid #e8e2d9;
+                &:last-child{
+                    border-right: none;
+                }
+                span{
+                    color:#888;
+                }
+            }
+        }
+        /*添加优惠券*/
+        .disc-bottom{
+            .common{color:#a974bc;}
+        }
+    }
+
+}
+
+.tips{
+    margin-top: 90/@bs;
+    padding-bottom: 48/@bs;
+    .tips-tit,.tips-text{
+        font-size: 24/@bs;
+        color:#999;
+        margin-top: 18/@bs;
+    }
+}

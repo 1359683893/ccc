@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <title>优惠活动</title>
+        <link rel="stylesheet" type="text/css" href="css/font.css" />
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+    <div class="top">
+        <div class="top-title">优惠活动</div>
+    </div>
+    <div class="main">
+
+        <div class="mod">
+            <div class="mod-tit">
+                <span class="mod-titl">全场优惠</span>
+                <span class="mod-titr"><i>0</i>/<i>1</i></span>
+            </div>
+            <!--添加全场优惠券-->
+            <div class="disc">
+                <div class="disc-body">
+                    <div class="disc-title">全场满300减10</div>
+                    <div class="disc-text">双十一特价优惠全场满就减</div>
+                    <div class="time">
+                        <div class="icon-time">
+                            <span>14-11-12 20:12 至 14-11-12 23:12</span>
+                        </div>
+                        <div class="time-right">即将开始</div>
+                    </div>
+                </div>
+                <div class="disc-con">
+                    <div class="icon-edit common">
+                        <span>编辑</span>
+                    </div>
+                    <div class="icon-share common">
+                        <span>分享</span>
+                    </div>
+                </div>
+            </div>
+            <!--没有优惠券-->
+            <div class="mod-con">
+                <div class="icon-add"><span>添加优惠</span></div>
+            </div>
+        </div>
+        <div class="mod">
+            <div class="mod-tit">
+                <span class="mod-titl">优惠券</span>
+                <span class="mod-titr"><i>0</i>/<i>3</i></span>
+            </div>
+            <!--添加优惠券-->
+            <div class="disc">
+                <div class="disc-body coupon">
+                    <div class="disc-title">
+                      <i>￥</i><b>5</b><span> (满0.00可用)</span>
+                    </div>
+                    <div class="disc-text">已领取/已使用：12/22   发行总数：1230</div>
+                    <div class="time">
+                        <div class="icon-time">
+                            <span>14-11-12 20:12 至 14-11-12 23:12</span>
+                        </div>
+                        <div class="time-right">已领取完</div>
+                    </div>
+                </div>
+            </div>
+            <div class="disc">
+                <div class="disc-body coupon">
+                    <div class="disc-title">
+                      <i>￥</i><b>20</b><span> (满500.00可用)</span>
+                    </div>
+                    <div class="disc-text">已领取/已使用：12/22   发行总数：1230</div>
+                    <div class="time">
+                        <div class="icon-time">
+                            <span>14-11-12 20:12 至 14-11-12 23:12</span>
+                        </div>
+                        <div class="time-right">正在进行</div>
+                    </div>
+                </div>
+                <div class="disc-con disc-bottom">
+                    <div class="icon-delete common">
+                        <span>作废</span>
+                    </div>
+                    <div class="icon-preview common">
+                        <span>预览</span>
+                    </div>
+                    <div class="icon-share common">
+                        <span>分享</span>
+                    </div>
+                </div>
+            </div>
+            <!--没有优惠券-->
+            <div class="mod-con">
+                <div class="icon-add"><span>添加优惠券</span></div>
+            </div>
+        </div>
+        <div class="tips">
+            <div class="tips-tit">提示:</div>
+            <p class="tips-text">1、买家下单时只可选择其一（全场优惠或优惠券）</p>
+            <p class="tips-text">2、优惠券一旦设置后不可修改</p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        
+         function htmlSize(){
+            var html = document.documentElement;
+            var hWidth = html.getBoundingClientRect().width;
+            html.style.fontSize = hWidth/16 + "px";
+            //1rem=40px; 根据640的宽度适配的
+         }
+         htmlSize();
+         window.onresize = function(){
+            htmlSize();
+         }
+
+
+
+    </script>
+   
+    </body>
+</html>
+
+

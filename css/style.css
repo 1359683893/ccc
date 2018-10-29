@@ -1,0 +1,179 @@
+.top {
+  height: 2.25rem;
+  line-height: 2.25rem;
+  background: #ff9b25;
+}
+.top .top-title {
+  font-size: 0.6rem;
+  color: #fff;
+  padding-left: 0.6rem;
+}
+.main {
+  padding: 0 0.6rem;
+}
+.mod {
+  margin-top: 0.7rem;
+  /*没有优惠券*/
+  /*添加全场优惠券*/
+}
+.mod .mod-tit {
+  margin-bottom: 0.7rem;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+}
+.mod .mod-tit .mod-titl {
+  font-size: 0.7rem;
+  color: #000;
+}
+.mod .mod-tit .mod-titr {
+  color: #888;
+  font-size: 0.7rem;
+}
+.mod .mod-tit .mod-titr i {
+  font-style: normal;
+}
+.mod .mod-con {
+  width: 14.8rem;
+  height: 5.6rem;
+  border: 0.075rem dashed #dedede;
+  background: #fff;
+}
+.mod .mod-con .icon-add {
+  font-size: 2.45rem;
+  color: #aeaeae;
+  text-align: center;
+  margin-top: 0.95rem;
+}
+.mod .mod-con .icon-add span {
+  font-size: 0.7rem;
+  display: block;
+  margin-top: 0.4rem;
+}
+.mod .disc {
+  margin-bottom: 0.725rem;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  box-shadow: 0.025rem 0.025rem 0.1rem 0.1rem #e2dfdc;
+  /*添加优惠券*/
+  /*添加优惠券*/
+}
+.mod .disc .disc-body {
+  padding: 0 0.8rem;
+  height: 5.825rem;
+  background: #55bc75;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.mod .disc .disc-body:before {
+  content: '';
+  display: block;
+  background: url(../images/sale.png) no-repeat;
+  width: 3.65rem;
+  height: 3.65rem;
+  position: absolute;
+  right: -0.2rem;
+  top: -0.45rem;
+  background-size: 3.65rem;
+}
+.mod .disc .disc-body .disc-title {
+  font-size: 1.15rem;
+  margin: 0.7rem 0 0.3rem 0;
+}
+.mod .disc .disc-body .disc-text {
+  color: #bdf3ce;
+  font-size: 0.55rem;
+  margin-bottom: 1rem;
+}
+.mod .disc .disc-body .time {
+  display: flex;
+  justify-content: space-between;
+}
+.mod .disc .disc-body .time .icon-time {
+  line-height: 0.85rem;
+  font-size: 0.5rem;
+}
+.mod .disc .disc-body .time .time-right {
+  width: 2.35rem;
+  height: 0.85rem;
+  line-height: 0.85rem;
+  border-radius: 0.125rem;
+  font-size: 0.5rem;
+  color: #bdf3ce;
+  background: #2a603b;
+  text-align: center;
+}
+.mod .disc .coupon {
+  background: #a974bc;
+}
+.mod .disc .coupon .disc-title {
+  font-size: 0.9rem;
+  color: #fff;
+  margin: 0.5rem 0 0.9rem 0;
+}
+.mod .disc .coupon .disc-title i {
+  font-style: normal;
+}
+.mod .disc .coupon .disc-title b {
+  font-size: 1.5rem;
+}
+.mod .disc .coupon .disc-title span {
+  color: #eac7f7;
+  font-size: 0.6rem;
+}
+.mod .disc .coupon .disc-text {
+  color: #fff;
+  margin-bottom: 0.15rem;
+}
+.mod .disc .coupon .time .time-right {
+  background: #6a4279;
+}
+.mod .disc .coupon .common {
+  color: #a974bc;
+}
+.mod .disc .disc-con {
+  height: 2.025rem;
+  background: #fff;
+  display: flex;
+  padding: 0.425rem 0;
+  position: relative;
+}
+.mod .disc .disc-con:before {
+  content: '';
+  display: block;
+  background: url(../images/icon.png) repeat-x center;
+  width: 100%;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: -0.2rem;
+  background-size: 0.6rem 0.2rem;
+}
+.mod .disc .disc-con .common {
+  flex: 1;
+  text-align: center;
+  line-height: 1.175rem;
+  color: #55bc75;
+  font-size: 0.65rem;
+  border-right: 0.025rem solid #e8e2d9;
+}
+.mod .disc .disc-con .common:last-child {
+  border-right: none;
+}
+.mod .disc .disc-con .common span {
+  color: #888;
+}
+.mod .disc .disc-bottom .common {
+  color: #a974bc;
+}
+.tips {
+  margin-top: 2.25rem;
+  padding-bottom: 1.2rem;
+}
+.tips .tips-tit,
+.tips .tips-text {
+  font-size: 0.6rem;
+  color: #999;
+  margin-top: 0.45rem;
+}
